@@ -1,0 +1,136 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+    }
+    
+    .header img {
+    display: block;
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .archive {
+        color: #ffffff;
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #16a085; 
+        padding: 20px; 
+    }
+    
+    .post-title a {
+    color: #ffffff;
+    text-decoration: none;
+    }
+    
+    .article-author {
+    color: #d0d0d0;
+    width: 50%;
+    float: left;
+    }
+    
+    .article-created-date {
+    color: #d0d0d0;
+    text-align: right;
+    }
+    
+    .article-page {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .article-text {
+    color: #f0f0f0;
+    margin-top: 20px;
+    }
+    
+    a {
+    color: white;
+    }
+
+    .one-post.folded .article-author {
+        display: none !important;
+    }
+    
+    .one-post.folded .article-created-date {
+        display: none !important;
+    }
+    
+    .one-post.folded .article-text {
+        display: none !important;
+    }
+    .one-post {
+        position: relative; 
+    }
+    
+    .one-post-shadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: black;
+        opacity: 0; 
+        z-index: -1; 
+        transition: opacity 0.3s ease; 
+    }
+
+    .header{
+background:#1abc9c;
+padding:20px;
+position:relative;
+}
+
+.logo{
+    width:318px;
+    position: relative;
+    top:0;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    }
+    
+.header-text-area{
+float:left;
+width:300px;
+}
+
+.service-title{
+font-size:28px;
+margin-bottom:20px;
+}
+
+.icons-for-parallax{
+margin-top:100px;
+margin-bottom:100px;
+height:530px;
+position:relative;
+}
+
+.icons-for-parallax img{
+position:absolute;
+top:0;
+}
+
+.icon-for-parallax-first{
+width:200px;
+margin-top:200px;
+z-index:3;
+}
+
+.icon-for-parallax-second{
+width:175px;
+margin-top:100px;
+margin-left:80px;
+z-index:2;
+}
+
+.icon-for-parallax-third{
+width:150px;
+margin-left:160px;
+z-index:1;
+}
+
